@@ -7,3 +7,11 @@ code for handgesture
 - Pandas 0.20.3
 - Opencv 3.2.0
 - Python2.7
+- Jupyter Notebook
+
+Best to install Anaconda2 :) 
+
+## Run the Code
+```
+jupyter notebook
+```
