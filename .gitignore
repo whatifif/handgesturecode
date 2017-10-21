@@ -2,3 +2,4 @@ MANUAL
 .ipynb_checkpoints
 models
 models.zip
+.DS_Store
