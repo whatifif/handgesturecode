@@ -38,7 +38,7 @@ and run the main.ipynb
 - Press m to add mouse mode
 - Press esc to quit program
 
-## Training Model
+## Training the MxNet Model
 
 #### Model is trained by 200x200 pixel images and 64x64 pixel images
 
