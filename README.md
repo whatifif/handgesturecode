@@ -5,15 +5,12 @@ project code page: [https://github.com/whatifif/handgesturecode](https://github.
 project slack: [https://sml109.slack.com](https://sml109.slack.com)  
 project team name: Team Echo
 
-# Controlling a Computer by Hand Gesture
+# Code for the project "Controlling a Computer by Hand Gesture"
 
 
 ## Brief Introduction of the project of Team Echo
 
 Almost people use a desktop or laptop these days. One of serious problem is that we are stuck to the keyboard and mouse, which will cause a serious health problem on a long run. Moreover in VR/AR age, we cannot use keyboard/mouse. Our purpose is to replace a keyboard and mouse with hand gestures. We have devised a virtual keyboard and virtual mouse with subtle hand gestures and made ML recognise our gestures so that we can control our computer remotely. Amazon echo has ear now. It will have eye in future. We need to make a standard gestures for people to adopt easily like a standard keyboard and mouse. ML will address this for us, human. We used Deep Learning as ML in this project.
-
-# handgesturecode
-code for handgesture project
 
 ## Dependencies
 - MxNet 0.11.0
@@ -25,13 +22,15 @@ code for handgesture project
 
 Best to install Anaconda2 :) 
 
-## Run the Code
+## Main program
+
+#### How to run 
 ```
 jupyter notebook
 ```
 and run the main.ipynb
 
-## How to use the main program
+#### How to use
 
 - Press g to enter GUI mode to capture a hand image
 - Press d to enter demo mode
@@ -39,11 +38,31 @@ and run the main.ipynb
 - Press m to add mouse mode
 - Press esc to quit program
 
+## Training Model
 
-## Model is trained by 200x200 pixel images and 64x64 pixel images
+#### Model is trained by 200x200 pixel images and 64x64 pixel images
 
 200x200 pixel data caused the out of memory problem on NVdia GTX 960 ( 2GB Graphic memory).  
 So 64x64 version of data and program is prepared.
+
+Since model file is somewhat large (~200MB), it cannot be uploaded to github.
+When the proj-train.ipynb is run, models folder automaticall created and can be used as model.
+
+#### How to preprocess
+
+run preprocessing-v2.ipynb
+
+
+#### How to train
+
+run proj-train.ipynb
+
+#### How to connect the trained model to application
+
+Import 'test64x64.py' to application and use 'predict' fundtion.
+
+test64x64.py is 64x64 version of test-streamline-v1.ipynb
+
 
 
 
