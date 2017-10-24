@@ -59,7 +59,7 @@ run proj-train.ipynb
 
 #### How to connect the trained model to application
 
-Import 'test64x64.py' to application and use 'predict' function.
+Import 'test64x64.py' to your application and use 'predict' function in your application.
 
 test64x64.py is 64x64 version of test-streamline-v1.ipynb
 
