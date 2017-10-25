@@ -52,26 +52,24 @@ When the proj-train.ipynb is run, models folder automaticall created and can be 
 
 run preprocessing-v2.ipynb
 
+This will create hand_pic, mask_pic, and picv ( if mouseMode is True ) in each daya folder and be used for training.
 
 #### How to train
 
-run proj-train.ipynb
+run proj-train.ipynb.  
+
+The trained model insaved in models folder automatically.
 
 #### How to connect the trained model to application
 
-Import 'test64x64.py' to your application and use 'predict' function in your application.
+First export your test-streamline-64x64.ipynb as test64x64.py.  
 
-test64x64.py is 64x64 version of test-streamline-v1.ipynb
+test64x64.py will read the trained model from models folder.    
 
+So import 'test64x64.py' to your application and use 'predict' function in your application.
 
+test-streamline-64x64.ipynb is 64x64 version of test-streamline-v1.ipynb  
 
-### [LICENSE](/LICENSE)
-GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
-
-Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
- 
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
 
 
 
