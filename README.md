@@ -52,7 +52,7 @@ When the proj-train.ipynb is run, models folder automaticall created and can be 
 
 run preprocessing-v2.ipynb
 
-This will create hand_pic, mask_pic, and picv ( if mouseMode is True ) in each daya folder and be used for training.
+This will create hand_pic, mask_pic, and picv ( if mouseMode is True ) in each data folder and be used for training.
 
 #### How to train
 
