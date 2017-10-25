@@ -1,7 +1,7 @@
 [Home](/README.md) | [Edit Guide](/editguide.md) | <button class="nav" ><a href="https://github.com/whatifif/handgesture/">Project Home on Github</a></button>  |  <button class="nav" ><a href="https://whatifif.github.io/handgesture/">Project Home on Web</a></button>
 
 
-project name: Controlling a Computer by Hand Gesture
+project name: Controlling a Computer by Hand Gesture  
 project homepage: [https://github.com/whatifif/handgesture](https://github.com/whatifif/handgesture)  
 project code page: [https://github.com/whatifif/handgesturecode](https://github.com/whatifif/handgesturecode)  
 project slack: [https://sml109.slack.com](https://sml109.slack.com)  
