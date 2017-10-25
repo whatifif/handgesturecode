@@ -58,7 +58,9 @@ This will create hand_pic, mask_pic, and picv ( if mouseMode is True ) in each d
 
 run proj-train.ipynb.  
 
-The trained model insaved in models folder automatically.
+It will read the preprocessed hand_pic, mask_pic and train the model. 400 epochs are repeated.  
+
+The trained model is saved in models folder automatically.
 
 #### How to connect the trained model to application
 
